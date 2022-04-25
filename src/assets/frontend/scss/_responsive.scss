@@ -1,0 +1,237 @@
+/** @format */
+
+@import "./variable";
+@import "./fonts";
+
+@media (max-width: 360px) {
+}
+@media (max-width: 375px) {
+  .tracking_field {
+    font-size: 12px;
+    line-height: 12px;
+    margin: 5px;
+    width: 100% !important;
+  }
+
+  .tracking_btn {
+    font-size: 12px;
+    line-height: 12px;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .service-header {
+    h4 {
+      margin-bottom: 20px;
+    }
+    span {
+      padding: 10px;
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+
+  .order-section {
+    width: 70vw;
+    background-color: #fff;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 2px;
+
+    box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+    -webkit-box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+    -moz-box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+
+    .col-12 {
+      .order-section-header {
+        font-family: NeurialGrotesk-bold;
+        line-height: 0.7rem;
+        font-size: 0.7rem;
+      }
+      .order-section-body {
+        font-family: NeurialGrotesk;
+        line-height: 0.7rem;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  details {
+    width: 100%;
+    padding: 10px;
+  }
+  .business-body {
+    background-image: url("../images/mobile_working.svg");
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: top 200px center;
+    overflow: hidden;
+    .business-title {
+      font-family: NeurialGrotesk-med;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #18191f;
+    }
+  }
+  .drive-earn {
+    height: 100vh;
+  }
+
+  .drive-earn-icon {
+    margin: 14px 15px 5px 0 !important;
+  }
+  .drive-earn-list {
+    max-width: 100%;
+    font-family: NeurialGrotesk;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2f2f35;
+    margin-bottom: 15px !important;
+  }
+
+  .services-card {
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    max-width: 48%;
+    border-radius: 2px;
+    img {
+      width: 75px;
+      margin-top: 20px;
+    }
+    .services-card-header {
+      font-family: NeurialGrotesk-bold;
+      max-width: 90%;
+      line-height: 16px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .services-card-body {
+      font-family: NeurialGrotesk;
+      font-size: 14px;
+      line-height: 16px;
+      max-width: 90%;
+      font-size: 14px;
+      text-align: center;
+      color: $text_color;
+    }
+
+    &:hover {
+      background-color: #ffffff;
+      border: 1px solid #ffffff;
+
+      box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+      -webkit-box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+      -moz-box-shadow: 8px 8px 8px 8px rgba(176, 176, 176, 0.75);
+    }
+  }
+
+  .app-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      // margin-left: 130px;
+      max-height: 50vh;
+      overflow: hidden;
+    }
+  }
+
+  // .business-title{
+  //     &::after{
+  //         content: '';
+  //         position: relative;
+  //         width: 20px;
+  //         height: 3px;
+  //         display: none;
+  //         background: #ECF1F4;
+  //     }
+  // }
+
+  .order-section-body {
+    border: none none none 1px solid #000;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+
+  .drive-earn-title {
+    font-family: NeurialGrotesk-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px !important;
+    /* identical to box height */
+
+    /* Dark */
+
+    color: #0a0a0a;
+  }
+
+  .footer-header {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* or 127% */
+  }
+
+  // about us
+  .about-us-banner {
+    background-image: url("../images/about_us_banner.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    transform: scale(1);
+  }
+  .about-us-content {
+    font-family: NeurialGrotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    /* or 23px */
+
+    /* Text/Body */
+
+    color: #333333;
+  }
+  .about-us-img-container {
+    width: 100%;
+    height: 70vh;
+    // margin-left: 75px;
+  }
+  .about-us-img {
+    width: 96%;
+    height: 60vh;
+    margin-top: 100px;
+  }
+
+  .login-container {
+    margin-top: 120px;
+  }
+  .login-form {
+    margin-top: 50px;
+  }
+
+  .get-qoutation {
+    font-size: 14px;
+    padding: 10px 10px !important;
+    margin: 5px 5px !important;
+  }
+}
+
+@media (max-width: 428px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1920px) {
+}
